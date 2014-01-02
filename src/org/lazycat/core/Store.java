@@ -5,24 +5,11 @@ import org.lazycat.util.ObjectToMap;
 import redis.clients.jedis.Jedis;
 
 public class Store {
-	private StoreObject storeObject;
+
 	private Jedis jedis;
 	
 	public Store(){
 		super();
-	}
-	
-	public Store(StoreObject so, Jedis jedis){
-		this.setStoreObject(so);
-		this.jedis = jedis;
-	}
-
-	public StoreObject getStoreObject() {
-		return storeObject;
-	}
-
-	public void setStoreObject(StoreObject storeObject) {
-		this.storeObject = storeObject;
 	}
 	
 	public int store(StoreObject obj){

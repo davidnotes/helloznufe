@@ -7,9 +7,8 @@ import org.lazycat.demo.StoreToRedis;
 public class FunctionVerificationTest {
 	
 	public static void main(String[] args){
-		StoreToRedis str = new StoreToRedis();
-		OrderForm of = new OrderForm(1,"001","002","OK");
-		str.store(of);
+		
+		//OrderForm of = new OrderForm(1,"001","002","OK");
 	}
 	
 	public static void EventServer(){
