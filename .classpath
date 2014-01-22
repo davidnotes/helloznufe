@@ -2,10 +2,12 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7x86"/>
-	<classpathentry kind="lib" path="C:/develop/lib/fastjson-1.1.33.jar"/>
-	<classpathentry kind="lib" path="C:/develop/lib/zmq.jar"/>
-	<classpathentry kind="lib" path="C:/zmq/lib"/>
-	<classpathentry kind="lib" path="C:/develop/lib/disruptor-2.10.3.jar"/>
-	<classpathentry kind="lib" path="C:/develop/lib/jedis-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/disruptor-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/fastjson-1.1.33.jar"/>
+	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/fastjson-1.1.33-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/fastjson-1.1.33-sources.jar"/>
+	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/jedis-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/zmq.jar"/>
+	<classpathentry kind="lib" path="lib"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
