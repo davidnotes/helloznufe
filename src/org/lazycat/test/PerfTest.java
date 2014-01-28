@@ -14,7 +14,7 @@ public class PerfTest {
 		//test1(!If);
 
 	}
-	
+
 	public static void test1(boolean test){
 		if(test){
 			long start = System.currentTimeMillis();
