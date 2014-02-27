@@ -1,9 +1,5 @@
 package org.lazycat.test;
 
-import java.lang.reflect.Field;
-
-
-
 public class PerfTest {
 	public static void main(String[] args){
 
