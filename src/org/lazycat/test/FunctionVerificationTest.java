@@ -7,7 +7,6 @@ import java.util.concurrent.Executors;
 
 import org.lazycat.core.EventServer;
 import org.lazycat.core.Message;
-import org.lazycat.core.MessageTranslator;
 import org.lazycat.core.Store;
 import org.lazycat.filter.*;
 

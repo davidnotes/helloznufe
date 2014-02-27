@@ -1,4 +1,6 @@
-package org.lazycat.core;
+package org.lazycat.test;
+
+import org.lazycat.core.Message;
 
 import com.lmax.disruptor.EventTranslator;
 
