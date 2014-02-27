@@ -13,6 +13,17 @@ public class Message {
 	private String url;
 	private String data;
 	private int state;
+	/*private EventServer eventServer;
+	
+
+	public EventServer getEventServer() {
+		return eventServer;
+	}
+
+	public void setEventServer(EventServer eventServer) {
+		this.eventServer = eventServer;
+	}
+	*/
 	
 	public String getIn() {
 		return in;
@@ -50,6 +61,7 @@ public class Message {
 		this.url = jb.getString("url");
 		this.data = jb.getString("data");
 		this.state = 0;
+		//this.eventServer = eventServer;//遗留代码，设计上的大BUG
 	}
 	/**
 	 * @return the state

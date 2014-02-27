@@ -2,14 +2,20 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7x86"/>
-	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/disruptor-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/disruptor-2.10.3.jar" sourcepath="C:/develop/IntroToDisruptorWithExtras/IntroToDisruptor/lib/sources/disruptor-2.10.1-sources.jar"/>
 	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/fastjson-1.1.33.jar" sourcepath="C:/develop/lib/fastjson-1.1.33-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/C:/develop/lib/fastjson-1.1.33-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/jedis-2.1.0.jar"/>
 	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/zmq.jar"/>
 	<classpathentry kind="lib" path="lib"/>
+	<classpathentry kind="lib" path="C:/develop/lib/jedis-2.2.1.jar" sourcepath="C:/develop/lib/jedis-2.2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/develop/lib/jedis-2.2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/commons-pool2-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/develop/workspace/lazycat/lib/commons-pool-1.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
