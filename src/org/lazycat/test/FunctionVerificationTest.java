@@ -21,6 +21,7 @@ import com.lmax.disruptor.SequenceBarrier;
 import com.lmax.disruptor.SingleThreadedClaimStrategy;
 import com.lmax.disruptor.SleepingWaitStrategy;
 import com.lmax.disruptor.dsl.Disruptor;
+
 public class FunctionVerificationTest {
 	public static JedisPool jpool = new JedisPool(new JedisPoolConfig(),"192.168.56.210");
 	
