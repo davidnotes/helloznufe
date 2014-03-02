@@ -2,11 +2,9 @@ package org.lazycat.test;
 
 public class PerfTest {
 	public static void main(String[] args){
-
 		//boolean If = true;
 		//test1(If);
 		//test1(!If);
-
 	}
 
 	public static void test1(boolean test){
