@@ -165,7 +165,10 @@ RESTful API 设计
                     },
                     {}
                   ],
-                  "type":"课程性质（必修，限选，通识课程）"
+                  "type":"课程性质（必修，限选，通识课程）",
+                  "averageScore":"平时成绩",
+	              "finalScore":"期末成绩",
+	              "totalScore":"总成绩"
                 },
                 {}
               ],
@@ -199,6 +202,9 @@ RESTful API 设计
                   {}
                 ],
                 "type":"课程性质（必修，限选，通识课程）"
+                "averageScore":"平时成绩",
+	            "finalScore":"期末成绩",
+	            "totalScore":"总成绩"
               },
               {}
             ],
